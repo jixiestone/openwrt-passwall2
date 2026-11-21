@@ -551,3 +551,4 @@ jobs:
         with:
           tag_name: ${{needs.job_check.outputs.passwall2_version}}
           body_path: ${{ env.FIRMWARE }}/release.txt
+
